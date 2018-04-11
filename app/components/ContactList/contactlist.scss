@@ -1,0 +1,20 @@
+.contact_list {
+    margin-top: 20px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: black;
+    p {
+        font-size: 20px;
+    }
+    ul {
+        li {
+            margin-bottom: 20px;
+            line-height: 1.5;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {}
