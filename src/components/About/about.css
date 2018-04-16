@@ -1,0 +1,51 @@
+.about {
+    border-bottom: 1px solid #838181;
+    padding: 60px 0;
+    color: black;
+}
+.about h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about__wrapper {
+    text-align: center;
+}
+.about__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 305px;
+    text-align: right;
+}
+.about__item h4 {
+    font-size: 22px;
+    padding: 15px 0;
+}
+.about__item p {
+    font-size: 16px;
+}
+.align_left {
+    text-align: left;
+}
+.about__photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 174px;
+    height: 165px;
+    margin: 15px;
+}
+
+@media (max-width: 835px) {
+.about__item {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+.align_left {
+    text-align: center;
+}
+.about__photo {
+    display: block;
+    margin: 15px auto;
+}
+}

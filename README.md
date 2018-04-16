@@ -2,21 +2,16 @@
 
 #### Technologies:
 
-React, Redux, SCSS.
+React, Redux.
 
 ###### Install
 
 npm install
 
-###### Toggle Development/Production
-
-1. webpack.config.js => publicPath
-2. index.html => script
-
 ###### Development
 
-npm start (for Windows)
+npm start or yarn start
 
 ###### Production
 
-npm run build (for Windows)
+npm run build or yarn build
