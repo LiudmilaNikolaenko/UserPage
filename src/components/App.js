@@ -8,23 +8,23 @@ import Footer from './Footer';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends React.Component {
-    render() {
-        return ( 
-            <Router>
-                <div>
-                    <Header />
-                    <Switch>
-                        <Route path="/about" component={About} />
-                        <Route path="/skills" component={Skills} />
-                        <Route path='/contact' component={Contact} />
-                        <Route path="/home" component={Home} />
-                        <Route path="/" component={Home} />
-                    </Switch>
-                    <Footer />
-                </div>
-            </Router>
-        )
-    };
+  render() {
+    return ( 
+      <Router>
+        <div>
+          <Header />
+          <Switch>
+            <Route path="/about" component={About} />
+            <Route path="/skills" component={Skills} />
+            <Route path='/contact' component={Contact} />
+            <Route path="/home" component={Home} />
+            <Route path="/" component={Home} />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
+    )
+  };
 };
 
 export default App;

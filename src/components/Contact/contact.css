@@ -1,60 +1,60 @@
 .contact {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 .contact h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-    color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
 }
 .contact__wrapper {
-    text-align: center;
-    font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 .contact__info {
-    display: inline-block;
-    vertical-align: top;
-    width: 310px;
-    padding: 10px;
-    text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 310px;
+  padding: 10px;
+  text-align: left;
 }
 .contact__info h5 {
-    color: black;
-    margin-bottom: 10px;
+  color: black;
+  margin-bottom: 10px;
 }
 .contact__info p {
-    color: #838181;
-    margin-bottom: 20px; 
+  color: #838181;
+  margin-bottom: 20px; 
 }
 .contact__form {
-    display: inline-block;
-    vertical-align: top;
-    width: 310px;
+  display: inline-block;
+  vertical-align: top;
+  width: 310px;
 }
 .contact__form p {
-    margin-top: 20px;
-    text-align: center;
-    color: black;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
 }
 .contact__form input {
-    width: 290px;
-    padding: 10px;
-    outline: none;
-    border-color: #838181;
+  width: 290px;
+  padding: 10px;
+  outline: none;
+  border-color: #838181;
 }
 .contact__form textarea {
-    width: 290px;
-    height: 90px;
-    padding: 10px;
-    outline: none;
-    border-color: #838181;
+  width: 290px;
+  height: 90px;
+  padding: 10px;
+  outline: none;
+  border-color: #838181;
 }
 .invalid_val {
-    border-color: coral;
+  border-color: coral;
 }
 .contact__form button {
-    padding: 10px 50px;
-    background-color: #333333;
-    color: white;
-    outline: none;
+  padding: 10px 50px;
+  background-color: #333333;
+  color: white;
+  outline: none;
 }

@@ -4,5 +4,5 @@ import skills from './skills';
 import contacts from './contacts';
 
 export default combineReducers({
-    user, skills, contacts
+  user, skills, contacts
 })

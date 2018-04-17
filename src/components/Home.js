@@ -4,13 +4,13 @@ import Skills from './Skills';
 import Contact from './Contact';
 
 function Home() {
-    return (
-        <div>
-            <About />
-            <Skills />
-            <Contact />
-        </div>
-    )
+  return (
+    <div>
+      <About />
+      <Skills />
+      <Contact />
+    </div>
+  )
 };
 
 export default Home;
