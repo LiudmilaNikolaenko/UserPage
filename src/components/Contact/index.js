@@ -105,11 +105,8 @@ class Contact extends React.Component {
       default:
         pattern = /[a-zA-Z0-9А-Яа-я]/;
     };
-    if (pattern.test(str)) {
-      return false;
-    } else {
-      return true;
-    };
+    if (pattern.test(str)) return false;
+    else return true;
   };
 
 };

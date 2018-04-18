@@ -2,7 +2,7 @@
 
 #### Technologies:
 
-React, Redux.
+React, React-router, Redux, Immutable.
 
 ###### Install
 
