@@ -21,7 +21,7 @@ class About  extends React.Component {
             <p>{goals}</p>
           </div>
           <div className="about__photo">
-            <img src={require(`./${photo}`)} alt="Avatar" />
+            <img src={require(`./${photo}`)} alt="" />
           </div>
           <div className="about__item align_left">
             <h4>Dreams</h4>

@@ -24,10 +24,9 @@ export default (userState = defaultUser, action) => {
 
   switch (type) {
     case ADD_CONTACT:
-      return userState.update(
-        'contacts',
-        contacts => contacts.concat(randomId)
-      );
+      return userState
+        .update('contacts', contacts => contacts.concat(randomId));
+
     default:
       return userState;
   }

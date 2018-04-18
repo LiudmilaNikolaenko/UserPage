@@ -17,8 +17,9 @@ export default (contactsState = defaultContacts, action) => {
 
   switch (type) {
     case ADD_CONTACT:
-      return contactsState.set(randomId, 
-      new ContactRecord({...payload.contact, id: randomId}));
+      return contactsState
+        .set(randomId, new ContactRecord({...payload.contact, id: randomId}));
+
     default:
       return contactsState;
   };
